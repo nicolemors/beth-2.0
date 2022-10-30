@@ -3,12 +3,12 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <>
-      <header className="site-header u-flex u-flex-align-items-center u-flex-col">
-        <Link href="/" className="hover:underline">
+      <header>
+        <Link href="/" className="header-rev site-header u-flex u-flex-align-items-center u-flex-col">
           <img className="logo" alt="Beth Bogdon Logo" src="/assets/images/logo.png"></img>
-          <h1 className="font-serif text-4xl md:text-7xl font-bold tracking-tighter leading-tight md:pr-8">
+          <h1 className="font-serif text-4xl md:text-7xl font-bold tracking-tighter leading-tight">
             Beth Bogdon
-            <span className="u-text-shrink-2 u-space-left-02">LPC</span>
+            <span className="u-text-shrink-2 u-space-left-02 font-sans tracking-wide">LPC</span>
           </h1>
         </Link>
         <nav id="site-navigation" className="main-navigation">

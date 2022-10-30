@@ -1,3 +1,23 @@
+:root {
+  --green: #9ACDBB;
+  --dark-green: #639E8A;
+  --grey: #869294;
+  --dark-grey: #39474E;
+  --light-grey: #C6C7CB;
+  --white: #fff;
+  --black: #111;
+  --silver: #F4F4F4;
+  --dark-silver: #EEEEEE;
+}
+
+.header-rev {
+  color: var(--dark-grey);
+}
+
+.header-rev:hover {
+  text-decoration: none;
+}
+
 .nav-menu-item:hover:before,
 .nav-menu-item:focus:before {
     visibility: visible;
@@ -15,7 +35,7 @@
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: #639E8A;
+    background-color: var(--dark-green);
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
