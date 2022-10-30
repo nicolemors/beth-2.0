@@ -1,4 +1,5 @@
 import Container from './container'
+import ContactForm from './contact-form'
 import { EXAMPLE_PATH } from '../lib/constants'
 
 const Footer = () => {
@@ -15,10 +16,7 @@ const Footer = () => {
           <div className="grid-cell u-sm-size-5of12">
             <h4 className="u-text-grow-3 u-text-normal u-space-bottom-2 u-xs-pad-top-1">CONTACT</h4>
             <form className="u-space-items-2">
-              <input className="input" type="text" placeholder="Name" />
-              <input className="input" type="text" placeholder="Email" />
-              <textarea className="input textarea" type="text" placeholder="Message"></textarea>
-              <a className="button u-size-full">Submit</a>
+              <ContactForm />
             </form>
           </div>
         </div>
