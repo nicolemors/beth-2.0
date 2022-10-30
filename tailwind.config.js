@@ -13,6 +13,11 @@ module.exports = {
       spacing: {
         28: '7rem',
       },
+      fontFamily: {
+        'sans': ['Montserrat'],
+        'display': ['Gastromond'],
+        'body': ['Montserrat'],
+      },
       letterSpacing: {
         tighter: '-.04em',
       },
